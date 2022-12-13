@@ -1,0 +1,77 @@
+.todoItem {
+	width: max-content;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 16%;
+	height: 30px;
+	width: 80%;
+}
+
+.todoItem:hover {
+	cursor: pointer;
+}
+
+.todoItem:hover {
+	background-color: rgb(134, 125, 125);
+}
+
+.deleteBtn:hover {
+	cursor: pointer;
+}
+
+.blockBtn {
+	border: none;
+	border-radius: 3px;
+	width: 15px;
+	min-height: 100%;
+}
+
+.blockBtn:hover {
+	border: none;
+	border-radius: 3px;
+	width: 15px;
+	min-height: 100%;
+	background-color: rgb(22, 21, 21);
+}
+
+.product {
+	width: max-content;
+}
+
+.productId {
+	width: max-content;
+}
+.nameField {
+	outline: none;
+	border: none;
+	color: black;
+	background-color: inherit;
+	text-overflow: ellipsis;
+	text-align: left;
+	width: 85px;
+}
+
+.nameField::placeholder {
+	color: black;
+}
+
+.nameField:focus {
+	border-bottom: 1px solid black;
+
+	outline: none;
+}
+
+.className-container {
+	display: flex;
+	flex-flow: row;
+}
+
+.svgPic {
+	width: 25;
+}
+
+.svgPic:hover {
+	scale: 1.1;
+}
